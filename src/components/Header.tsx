@@ -4,7 +4,7 @@ export const Header = () => {
   return (
     <header className="bg-[url('/src/assets/headerPicBW.jpeg')] bg-cover flex relative items-center py-4 w-full rounded-t-md">
       <img
-        className="flex rounded-full object-cover h-28 ml-10 ring-4 ring-gray-500"
+        className="flex rounded-full object-cover h-20 md:h-28 ml-10 ring-4 ring-gray-500"
         src={profilePic}
         alt="Profile Pic"
       />
