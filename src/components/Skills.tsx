@@ -13,7 +13,7 @@ export const BulletPoint = ({
   return (
     <h2 className={classname("text-base", className)}>
       {title}
-      <ul className="flex items-start mb-4 pt-1 text-neutral-900">
+      <ul className="flex items-start mb-14 sm:mb-8 md:mb-4 pt-1 text-neutral-900">
         <li className="flex text-xs">{content}</li>
       </ul>
     </h2>
