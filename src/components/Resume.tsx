@@ -8,7 +8,8 @@ export const Resume = () => {
   return (
     <section
       id="resume"
-      className="flex flex-col bg-white md:rounded-md shadow-lg lg:my-20 lg:mx-10 md:my-10 md:mx-5 text-neutral-900 lg:h-[1056px] lg:w-[816px]"
+      style={{ maxWidth: "816px" }}
+      className="flex flex-col bg-white md:rounded-md shadow-lg lg:my-20 lg:mx-10 md:my-10 md:mx-5 text-neutral-900"
     >
       <Header />
       <div className="flex w-full lg:h-full py-2 sm:py-6">
