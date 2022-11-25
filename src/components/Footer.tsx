@@ -22,7 +22,7 @@ export const ContactLink = ({
 export const Footer = () => {
   return (
     <footer className="border-t border-yellow-700 flex justify-center mx-10 h-28 md:h-36">
-      <div className=" grid grid-cols-2 gap-x-10 py-4">
+      <div className=" grid grid-cols-2 gap-x-10 py-8">
         <span className="text-xs flex items-center">
           <BsFillTelephoneFill className="h-3 w-3 mr-2" />
           {contactInfo.phone}

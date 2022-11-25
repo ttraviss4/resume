@@ -29,7 +29,7 @@ export const Job = ({ job }: { job: JobType }) => {
   return (
     <div className="flex flex-col text-xs">
       <div className="flex justify-between pt-2">
-        <b className="text-sm">
+        <b className="text-xs">
           {job.title}, <i>{job.company}</i>
         </b>
         <div className="text-xs text-gray-500">

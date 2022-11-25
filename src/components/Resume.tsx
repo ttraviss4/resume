@@ -12,7 +12,7 @@ export const Resume = () => {
       className="flex flex-col bg-white md:rounded-md shadow-lg lg:my-20 lg:mx-10 md:my-10 md:mx-5 text-neutral-900"
     >
       <Header />
-      <div className="flex w-full lg:h-full py-2 sm:py-6">
+      <div className="flex w-full my-10">
         <Skills />
         <div className="flex flex-col w-full px-10">
           <Education />

@@ -1,6 +1,6 @@
 export const Education = () => {
   return (
-    <section className="flex flex-col w-full pt-6">
+    <section className="flex flex-col w-full">
       <b className=" text-amber-700 text-lg">Education</b>
       <div className="text-xs pt-2">
         <div className="flex justify-between">

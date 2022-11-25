@@ -10,7 +10,9 @@ export const Header = () => {
       />
       <div className="flex flex-col mr-10 w-full items-end">
         <b className="text-4xl text-white">Taylor Traviss</b>
-        <b className="text-2xl text-white">Full-Stack Software Engineer</b>
+        <b className="text-xl sm:text-2xl text-white">
+          Full-Stack Software Engineer
+        </b>
       </div>
     </header>
   );
