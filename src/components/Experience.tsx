@@ -1,4 +1,4 @@
-import { grayWolf, rainforest } from "../Content";
+import { picThrive, grayWolf } from "../Content";
 
 type JobType = {
   title: string;
@@ -44,7 +44,9 @@ export const Job = ({ job }: { job: JobType }) => {
           <List contentList={job.items.frontend} />
           <b className="mt-2 pl-2">Backend</b>
           <List contentList={job.items.backend} />
-          <b className="mt-2 pl-2">Data</b>
+          {job.items.data && (
+            <b className="mt-2 pl-2">Data</b>
+          )}
           <List contentList={job.items.data} />
         </div>
       )}
@@ -56,8 +58,9 @@ export const Experience = () => {
   return (
     <section className="flex flex-col w-full h-full mt-6">
       <b className="text-amber-700 text-lg">Experience</b>
+      <Job job={picThrive} />
       <Job job={grayWolf} />
-      <Job job={rainforest} />
+      {/* <Job job={rainforest} /> */}
     </section>
   );
 };

@@ -2,6 +2,8 @@ export const languages = [
   "Python",
   "Javascript",
   "Typescript",
+  "Go",
+  "Kotlin",
   "C++",
   "C",
   "Swift",
@@ -12,6 +14,8 @@ export const languages = [
 
 export const databases = [
   "PostgreSQL",
+  "DynamoDB",
+  "MySQL",
   "MongoDB",
   "Neo4J",
   "AWS Athena",
@@ -21,6 +25,8 @@ export const databases = [
 
 export const frameworks = [
   "React",
+  "Angular",
+  "Svelte",
   "FastAPI",
   "Apache Spark",
   "Flask",
@@ -33,6 +39,7 @@ export const UI = [
   "JSX",
   "TailwindUI",
   "CSS",
+  "Less",
   "SASS",
   "React Query",
   "QT",
@@ -44,6 +51,7 @@ export const UI = [
 export const tools = [
   "Docker",
   "AWS",
+  "Android Studio",
   "Sentry",
   "Firebase",
   "Swagger",
@@ -59,11 +67,28 @@ export const misc = [
   "Linux, MacOS, Windows",
 ];
 
+export const picThrive = {
+  title: "Full-Stack Developer",
+  company: "PicThrive",
+  start: "April 17, 2023",
+  end: "Present",
+  items: {
+    frontend: [
+      "Came up with thoughtful UI/UX for new features, and implemented them using Angular and Svelte.",
+      "Made improvements and added features to an Android TV app using Kotlin."
+    ],
+    backend: [
+      "Added endpoints and functionality using Golang to a REST API that allowed for the implementation of new features.",
+      "Interacted and modified data from DynamoDB and MySQL databases to increase the capabilities of the product."
+    ],
+  },
+};
+
 export const grayWolf = {
   title: "Full-Stack Developer",
   company: "Gray Wolf Analytics",
   start: "May 25, 2021",
-  end: "Present",
+  end: "March 29, 2023",
   items: {
     frontend: [
       "Designed elegant UI/UX for various new features for the Gray Wolf platform, and implemented them using the React framework and TailwindUI to allow users to better understand their digital asset risk.",
