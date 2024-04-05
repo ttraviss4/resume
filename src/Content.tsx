@@ -124,6 +124,6 @@ export const rainforest = {
 export const contactInfo = {
   email: "taylortraviss@gmail.com",
   phone: "(604) 505-3678",
-  linkedIn: "https://www.linkedin.com/in/taylor-traviss-0ab102190/",
+  linkedIn: "https://www.linkedin.com/in/taylor-t-0ab102190/",
   github: "https://github.com/ttraviss4/resume",
 };
