@@ -66,7 +66,9 @@ export const Experience = () => {
     <section className="flex flex-col w-full h-full mt-6">
       <b className="text-amber-700 text-lg">Experience</b>
       <Job job={picThrive} />
-      <Job job={grayWolf} />
+      <div className="pt-4">
+        <Job job={grayWolf} />
+      </div>
       {/* <Job job={rainforest} /> */}
     </section>
   );
