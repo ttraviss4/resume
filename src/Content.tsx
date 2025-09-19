@@ -1,21 +1,23 @@
 export const languages = [
-  "Python",
-  "Javascript",
   "Typescript",
+  "Javascript",
+  "Python",
   "Go",
+  "Dart",
   "Kotlin",
   "C++",
-  "C",
-  "Swift",
-  "ARM Assembly",
-  "Matlab",
-  "VHDL",
+  // "C",
+  // less recent
+  // "Swift",
+  // "ARM Assembly",
+  // "Matlab",
+  // "VHDL",
 ];
 
 export const databases = [
+  "MySQL",
   "PostgreSQL",
   "DynamoDB",
-  "MySQL",
   "MongoDB",
   "Neo4J",
   "AWS Athena",
@@ -24,14 +26,16 @@ export const databases = [
 ];
 
 export const frameworks = [
+  "Svelte",
   "React",
   "Angular",
-  "Svelte",
   "FastAPI",
   "Apache Spark",
   "Flask",
   "React Native",
-  "Keras",
+  "Flutter",
+  // less recent
+  // "Keras",
 ];
 
 export const UI = [
@@ -39,13 +43,14 @@ export const UI = [
   "JSX",
   "TailwindUI",
   "CSS",
-  "Less",
-  "SASS",
-  "React Query",
-  "QT",
-  "XCode",
-  "Redux",
-  "MobX",
+  "LESS",
+  // less recent
+  // "SASS",
+  // "React Query",
+  // "QT",
+  // "XCode",
+  // "Redux",
+  // "MobX",
 ];
 
 export const tools = [
@@ -54,13 +59,15 @@ export const tools = [
   "Android Studio",
   "Sentry",
   "Firebase",
+  "Cloudflare",
   "Swagger",
-  "Usersnap",
-  "Dagster",
+  // "Usersnap", // ?
+  // "Dagster",
 ];
 
 export const misc = [
   "Agile methodology",
+  "Shape-up methodology",
   "UI/UX design",
   "Git",
   "API development",
@@ -73,14 +80,14 @@ export const picThrive = {
   start: "April 17, 2023",
   end: "Present",
   items: {
-    frontend: [
-      "Came up with thoughtful UI/UX for new features, and implemented them using Angular and Svelte.",
-      "Made improvements and added features to an Android TV app using Kotlin."
+    misc: [
+      "Architected and implemented an automation system, that delivers guest content using rules-based matching, eliminating manual work and saving customers time.",
+      "Designed the system using a test-driven development approach, ensuring reliability and significantly reducing production bugs.",
+      "Built end-to-end functionality spanning backend (Go, DynamoDB, MySQL) and frontend (Typescript, CSS, Svelte).",
+      "Implemented an automated deploy pipeline that significantly reduced friction and manual steps needed to deploy, cutting deployment time from 15 minutes to 5 minutes.",
+      "Played a major role in product development, as the only other developer was the co-founder of the company.",
     ],
-    backend: [
-      "Added endpoints and functionality using Golang to a REST API that allowed for the implementation of new features.",
-      "Interacted and modified data from DynamoDB and MySQL databases to increase the capabilities of the product."
-    ],
+    impact: "Delivered a fully automated content delivery system that eliminated manual work for customers, reduced the amount of errors, and improved customer satisfaction.",
   },
 };
 
@@ -90,19 +97,14 @@ export const grayWolf = {
   start: "May 25, 2021",
   end: "March 29, 2023",
   items: {
-    frontend: [
-      "Designed elegant UI/UX for various new features for the Gray Wolf platform, and implemented them using the React framework and TailwindUI to allow users to better understand their digital asset risk.",
-      "Achieved a lead role for frontend development at Gray Wolf, and took ownership of maintaining the frontend repository.",
+    misc: [
+      "Led frontend development of the Gray Wolf platform, owning the React/Tailwind codebase and delivering new UI/UX features that improved client understanding of digital asset risk.",
+      "Designed and implemented backend APIs with FastAPI and PostgreSQL to power core platform features, enabling secure, scalable delivery of blockchain analytics.",
+      "Developed algorithms to enrich on-chain data with contextual insights, making crypto risk assessments more transparent and actionable for investigators.",
+      "Built and maintained blockchain data pipelines, running ETL processes and monitoring scripts to ingest Bitcoin data into a Neo4J graph database, providing the company\'s ground-truth dataset.",
+      "Integrated third-party APIs to enhance platform functionality and expand investigative capabilities, increasing data coverage and client trust.",
     ],
-    backend: [
-      "Utilized a Postgres database and the FastAPI framework to create an API that powered the Gray Wolf platform.",
-      "Created algorithms that brought more context to Gray Wolf's data, resulting in more intuitive, and transparent risk assessment for crypto addresses.",
-      "Interacted with 3rd party API's to bring on-chain data to users, enhancing the ability to conduct crypto investigations using Gray Wolf.",
-    ],
-    data: [
-      "Built data pipeline solutions to query, process, and store blockchain data, allowing for the performance of analytics.",
-      "Ran ETL processes, and created monitoring scripts to store Bitcoin data in a Neo4J graph database, and kept it up to date so that Gray Wolf had a ground truth source of Bitcoin data.",
-    ],
+    impact: "Accelerated product development by taking ownership across the full stack, contributed to core data architecture, and strengthened the platform\'s role in crypto investigations.",
   },
 };
 
@@ -115,7 +117,7 @@ export const rainforest = {
     misc: [
       "Used the React framework with Redux to create dynamic user interfaces on the Rainforest User Portal (web app), allowing users to better manage their energy consumption.",
       "Implemented new features on the Rainforest mobile app using React Native and MobX.",
-      "Utilized GitLab to setup continuous integration and continuous delivery, resulting in a smoother build, test, and deploy process.",
+      "Utilized GitLab to setup continuous integration and continuous delivery (CI/CD), resulting in a smoother build, test, and deploy process.",
       "Used Python to create automated test scripts that ran on Linux in an embedded device, resulting in a more efficient testing process.",
     ],
   },

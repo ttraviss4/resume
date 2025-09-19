@@ -10,6 +10,7 @@ type JobType = {
     backend?: string[];
     data?: string[];
     misc?: string[];
+    impact?: string;
   };
 };
 
@@ -48,6 +49,12 @@ export const Job = ({ job }: { job: JobType }) => {
             <b className="mt-2 pl-2">Data</b>
           )}
           <List contentList={job.items.data} />
+        </div>
+      )}
+      {job.items.impact && (
+        <div className="pt-2 pl-2">
+          <b>Impact: </b>
+          {job.items.impact}
         </div>
       )}
     </div>
