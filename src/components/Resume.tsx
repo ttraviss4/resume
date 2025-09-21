@@ -8,7 +8,7 @@ export const Resume = () => {
   return (
     <section
       id="resume"
-      style={{ maxWidth: "816px" }}
+      style={{ maxWidth: "816px", height: "1056px" }} // US letter size for desktop
       className="flex flex-col bg-white md:rounded-md shadow-lg lg:my-20 lg:mx-10 md:my-10 md:mx-5 text-neutral-900"
     >
       <Header />
